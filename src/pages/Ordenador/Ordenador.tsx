@@ -13,7 +13,7 @@ export default function Ordenador({ ordenador, setOrdenador }: Props) {
     ordenador && opcoes.find((opcao) => opcao.value === ordenador)?.nome;
   return (
     <button
-      className={`flex items-center  border-0 rounded-tr rounded-tl text-base font-bold h-10 justify-between w-60 px-10 relative mt-4 md:mt-0 active:bg-blue-600 active:text-white ${
+      className={`flex items-center  border-0 rounded-tr shadow-md rounded-tl text-base font-bold h-10 justify-between w-60 px-10 relative mt-4 md:mt-0 ${
         ordenador !== "" ? "bg-blue-600 text-white" : "bg-slate-300"
       }`}
       onClick={() => setAberto(!aberto)}

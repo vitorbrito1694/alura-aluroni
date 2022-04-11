@@ -25,8 +25,8 @@ export default function Filtros({ filtro, setFiltro }: IProps) {
       {filtros.map((opcao) => (
         <button
           key={opcao.id}
-          className={`bg-slate-300 border-none rounded h-10 font-bold px-2 text-lg hover:cursor-pointer ${
-            filtro === opcao.id ? "bg-blue-600 text-white" : ""
+          className={`border-none rounded shadow-md h-10 font-bold px-2 text-lg hover:cursor-pointer ${
+            filtro === opcao.id ? "bg-blue-600 text-white" : "bg-slate-300"
           }`}
           onClick={() => selecionarFiltro(opcao)}
         >
