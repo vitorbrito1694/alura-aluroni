@@ -1,5 +1,5 @@
 // import logo from "../../../../assets/logo.svg";
-import cardapio from "../itens.json";
+import cardapio from "data/cardapio.json";
 
 type Props = typeof cardapio[0];
 
