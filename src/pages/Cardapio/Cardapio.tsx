@@ -3,10 +3,10 @@ import Buscador from "./Buscador/Buscador";
 import { useState } from "react";
 import background from "assets/cardapio/header.png";
 import Filtros from "./Filtros/Filtros";
-import Ordenador from "pages/Ordenador/Ordenador";
+import Ordenador from "pages/Cardapio/Ordenador/Ordenador";
 import Itens from "./Itens/Itens";
 
-var backgroundImg = {
+const backgroundImg = {
   backgroundImage: `url(${background})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

@@ -22,12 +22,12 @@ export default function Item(props: Props) {
               category.label === "Massas"
                 ? "bg-red-500 "
                 : "bg-white" && category.label === "Carnes"
-                ? "bg-gray-700 "
-                : "bg-white" && category.label === "Veganos"
-                ? "bg-green-600 "
-                : "bg-white" && category.label === "Combos"
-                ? "bg-yellow-600 "
-                : "bg-white"
+                  ? "bg-gray-700 "
+                  : "bg-white" && category.label === "Veganos"
+                    ? "bg-green-600 "
+                    : "bg-white" && category.label === "Combos"
+                      ? "bg-yellow-600 "
+                      : "bg-white"
             }
             `}
           >
